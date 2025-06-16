@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,46 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+# Customer Rewards Program
+
+A React-based web application that calculates customer reward points based on their purchases over a 3-month period. Customers earn points as follows:
+
+- 2 points for every dollar spent **over $100**
+- 1 point for every dollar spent **between $50 and $100**
+
+---
+
+## Example Calculation
+
+If a customer spends **$120** in a transaction:
+
+- 2 x $20 (above $100) = 40 points
+- 1 x $50 (between $50 and $100) = 50 points  
+**Total = 90 points**
+
+---
+
+## Features
+
+- Simulated asynchronous API call for transaction data
+- Points calculation per customer **per month** and **in total**
+- Responsive UI built using plain **React JS**
+- No Redux or external state libraries used
+
+---
+
+##  Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Install and Run Locally
+
+```bash
+git clone https://github.com/your-username/rewards-program.git
+cd rewards-program
+npm install
+npm start
